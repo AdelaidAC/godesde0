@@ -5,6 +5,7 @@ import (
 	"runtime" // Contiene toda la informacion del equipo sobre el cual corre nuestro sistema
 
 	"github.com/AdelaidAC/godesde0/ejercicios"
+	"github.com/AdelaidAC/godesde0/teclado"
 	"github.com/AdelaidAC/godesde0/variables"
 )
 
@@ -50,4 +51,6 @@ func main() {
 
 	num, txt := ejercicios.ConvNumerico("1000")
 	fmt.Println(num, txt)
+
+	teclado.IngresoNumeros()
 }
