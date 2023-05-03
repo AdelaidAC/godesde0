@@ -33,7 +33,7 @@ func main() {
 		fmt.Printf("%s \n", os)
 	}
 
-	// EJERCICIO 1
+	// EJERCICIO 1 (solucion propia)
 
 	entero, texto, error := ejercicios.EjercicioUno("1000")
 
@@ -45,4 +45,9 @@ func main() {
 	} else {
 		fmt.Printf("%s es menor a 100 \n", texto)
 	}
+
+	// EJERCICIO 1 (solucion del maestro)
+
+	num, txt := ejercicios.ConvNumerico("1000")
+	fmt.Println(num, txt)
 }
