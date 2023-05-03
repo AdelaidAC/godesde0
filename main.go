@@ -4,6 +4,7 @@ import (
 	"fmt"     //Imprimir texto
 	"runtime" // Contiene toda la informacion del equipo sobre el cual corre nuestro sistema
 
+	"github.com/AdelaidAC/godesde0/ejercicios"
 	"github.com/AdelaidAC/godesde0/variables"
 )
 
@@ -30,5 +31,18 @@ func main() {
 		fmt.Println("Esto es Darwnin")
 	default: // Cualquier otro SO
 		fmt.Printf("%s \n", os)
+	}
+
+	// EJERCICIO 1
+
+	entero, texto, error := ejercicios.EjercicioUno("1000")
+
+	if error != nil {
+		fmt.Println("Error durante la conversion")
+		return
+	} else if entero > 100 {
+		fmt.Printf("%s es mayor a 100 \n", texto)
+	} else {
+		fmt.Printf("%s es menor a 100 \n", texto)
 	}
 }
