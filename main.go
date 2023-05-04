@@ -4,7 +4,7 @@ import (
 	"fmt"     //Imprimir texto
 	"runtime" // Contiene toda la informacion del equipo sobre el cual corre nuestro sistema
 
-	"github.com/AdelaidAC/godesde0/files"
+	"github.com/AdelaidAC/godesde0/users"
 	"github.com/AdelaidAC/godesde0/variables"
 )
 
@@ -63,5 +63,21 @@ func main() {
 
 	//files.SumaTabla()
 
-	files.LeoArchivo()
+	//files.LeoArchivo()
+
+	//funciones.Calculos()
+
+	//funciones.LlamarClosure()
+
+	//funciones.Exponencia(100)
+
+	//arreglos_slices.MuestroArreglos()
+
+	//arreglos_slices.MuestroSlice()
+
+	//arreglos_slices.Capacidad()
+
+	//mapas.MostrarMapas()
+
+	users.AltaUsuario()
 }
