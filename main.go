@@ -4,7 +4,8 @@ import (
 	"fmt"     //Imprimir texto
 	"runtime" // Contiene toda la informacion del equipo sobre el cual corre nuestro sistema
 
-	"github.com/AdelaidAC/godesde0/users"
+	"github.com/AdelaidAC/godesde0/ejer_interfaces"
+	"github.com/AdelaidAC/godesde0/modelos"
 	"github.com/AdelaidAC/godesde0/variables"
 )
 
@@ -79,5 +80,9 @@ func main() {
 
 	//mapas.MostrarMapas()
 
-	users.AltaUsuario()
+	//users.AltaUsuario()
+
+	Pedro := new(modelos.Hombre)
+
+	ejer_interfaces.HumanosRespirando(Pedro)
 }
