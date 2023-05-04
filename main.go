@@ -5,6 +5,7 @@ import (
 	"runtime" // Contiene toda la informacion del equipo sobre el cual corre nuestro sistema
 
 	"github.com/AdelaidAC/godesde0/ejercicios"
+	"github.com/AdelaidAC/godesde0/iteraciones"
 	"github.com/AdelaidAC/godesde0/teclado"
 	"github.com/AdelaidAC/godesde0/variables"
 )
@@ -53,4 +54,8 @@ func main() {
 	fmt.Println(num, txt)
 
 	teclado.IngresoNumeros()
+
+	iteraciones.Iterar()
+
+	ejercicios.TablaDeMultiplicar()
 }
